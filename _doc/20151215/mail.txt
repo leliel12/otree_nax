@@ -1,0 +1,57 @@
+Hey juan,
+
+Here is some more details:
+
+Sequence of experiment:
+
+1. instructions.
+2. After the instructions, each period, there will just be one screen where they make the decision
+3. after they submit answer, the waiting screen (waiting for others to make decision in their own group),
+4.  and then a screen to announce the result of that period.
+
+
+Then the next period will start, i.e. repeat 2.,3.4. ...
+
+Til next treatment.
+
+Wanna skype about this?
+
+Best,
+heinrich
+
+________________________________________
+From: Nax  Heinrich [hnax@ethz.ch]
+Sent: Monday, December 14, 2015 2:36 AM
+To: Peiran Jiao
+Subject: RE: experiment.
+
+Do we have the whole friedman screen sequence?
+
+-----Original Message-----
+From: Peiran Jiao [mailto:peiran.jiao@economics.ox.ac.uk]
+Sent: Montag, 14. Dezember 2015 03:31
+To: Nax Heinrich <hnax@ethz.ch>
+Subject: RE: experiment.
+
+We can just follow Friedman et al. In terms of screen layout and sequence. What do you mean test of the experiment?
+
+Could you add in the Dropbox document and send to me via email? I'm in China and Dropbox is blocked. I'll then add whatever else is needed and edit. Thank you!
+
+Best,
+
+Peiran
+________________________________________
+From: Nax  Heinrich [hnax@ethz.ch]
+Sent: Saturday, December 12, 2015 11:13 PM
+To: Peiran Jiao
+Subject: experiment.
+
+Hey Peiran,
+
+my developer would like to know the exact sequence of screens and test of the experiment.
+
+
+
+Best,
+
+hh
