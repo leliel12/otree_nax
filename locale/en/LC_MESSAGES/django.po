@@ -1,0 +1,7 @@
+msgid "{} point"
+msgid_plural "{} points"
+msgstr[0] "{} coin"
+msgstr[1] "{} coins"
+
+msgid "points"
+msgstr "coins"

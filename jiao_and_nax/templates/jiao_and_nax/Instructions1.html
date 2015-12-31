@@ -1,0 +1,63 @@
+{% extends "global/Base.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Instructions
+{% endblock %}
+
+{% block content %}
+<div class="row">
+    <p>
+        <strong>Welcome to the experiment!</strong> This is an economics
+        experiment about decision-making. If you pay close attention to these
+        instructions, you can earn a significant sum of money, which will be paid
+        to you in cash at the end of the last period.
+    </p>
+    <p>
+        Please remain silent and do not look at other participants' screens.
+        If you have any questions, or need assistance of any kind, please raise
+        your hand and we will come to you. If you disrupt the experiment by talking,
+        laughing, etc., you may be asked to leave and may not be paid. We expect
+        and appreciate your cooperation today. There are two parts of your reward
+        in this experiment:
+    </p>
+    <ol>
+        <li>
+            A show-up fee of <strong class="text-info">{{Constants.participation_fee}}</strong>,
+            which is independent from your decisions in the experiment, and
+        </li>
+        <li>a payment that depends on your decisions in the experiment, which will be explained next.</li>
+    </ol>
+    <h3>The Basic Idea</h3>
+    <p>
+        The experiment will be divided into a number of periods and in each period you
+        will be anonymously matched with two other players via the computer.
+        In each period you and your counterparts will select strategies and at the end of
+        the period the combination of your and your counterparts' strategies will determine your
+        earnings for the period.
+    </p>
+    <p>
+        Right now we do not tell you exactly how earnings are determined but here are a few facts:
+    </p>
+    <ul>
+        <li>Your earnings in each period depend entirely on your strategy and your counterparts' strategies, and nothing else.</li>
+        <li>The function that determines your earnings will not change over the course of the experiment. That is, if you and your counterparts use the same strategies at time A as at time B, you both will all have the same earnings at time A as at time B.</li>
+        <li>Your earnings are symmetric with your counterparts'. In particular, if you and your counterparts all choose the same strategy, then you all will earn the same amount</li>
+    </ul>
+    <h3>Payment</h3>
+    <p>
+        The experiment will last 60 periods. At the end of the experiment,
+        we will randomly select one period and pay you according to your earnings
+        in that period. Any period may be selected, so please do your best in
+        all decisions. The total number of coins you earned in that period will
+        be converted into real money at an exchange rate of <code>{{1|c}} = ${{Constants.ratio}}</code>.
+    </p>
+
+</div>
+<div class="row">
+    <div class="pull-right">
+        {% next_button %}
+    </div>
+</div>
+
+{% endblock %}
