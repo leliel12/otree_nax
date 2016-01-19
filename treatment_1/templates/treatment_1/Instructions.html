@@ -1,0 +1,26 @@
+{% extends "global/Base.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Black box, then game, then others (Treatment 1)
+{% endblock %}
+
+{% block content %}
+<div class="row">
+    <h2>Phase 1</h2>
+    <p>
+        The experiment will last 60 periods, divided into three pre-defined
+        phases of 20 periods. Each period, you decide how much to invest.
+        You have a fixed budget of 100 coins each period, from which you
+        freely choose any nonnegative integer amount (between 0 and 100 coins).
+        Your budget comes new each period. As the game proceeds, you will
+        learn after each period how many coins you earned last period as a
+        result of your, and your counterparts’, investment decision.
+    </p>
+</div>
+<div class="row">
+    <div class="pull-right">
+        {% next_button %}
+    </div>
+</div>
+{% endblock %}
