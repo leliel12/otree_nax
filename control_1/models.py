@@ -23,28 +23,32 @@ class Constants(BaseConstants):
     name_in_url = 'control_1'
     players_per_group = None
     num_rounds = 60
+    invest_limits = 0, 100
 
 
 class Subsession(BaseSubsession):
-    pass
 
-    #~ def before_session_starts(self):
-        #~ if self.round_number != 1:
-            #~ print self.round_number
-            #~ self.match_players("perfect_strangers")
+    def before_session_starts(self):
+        if self.round_number != 1:
+            self.match_players("perfect_strangers")
 
 
 class Group(BaseGroup):
 
     def set_payoff(self):
         players = self.get_players()
-        players.sort(key=lambda p: p.invest, reverse=True)
+        quantities_total = sum(p.invest for p in players)
+        price = (3000 / quantities_total) - 10.
         for p in players:
-            p.payoff = 10
+            p.payoff = price * p.invest + 100
 
 
 class Player(BasePlayer):
 
-    invest = models.CurrencyField(
-        min=0, max=100, widget=widgets.SliderInput(),
-        verbose_name="How many money do you want to invest?")
+    def random_invest():
+        return random.randint(*Constants.invest_limits)
+
+    invest = models.IntegerField(
+        min=Constants.invest_limits[0], max=Constants.invest_limits[1],
+        widget=widgets.SliderInput(), default=random_invest,
+        verbose_name="How much money do you want to invest?")

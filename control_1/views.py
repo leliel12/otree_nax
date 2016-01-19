@@ -29,7 +29,7 @@ class ResultsWaitPage(WaitPage):
 class Results(Page):
 
     def is_displayed(self):
-        pass
+        return True
 
 
 page_sequence = [

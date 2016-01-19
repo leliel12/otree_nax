@@ -12,9 +12,6 @@ class Instructions1(Page):
     pass
 
 
-
-
 page_sequence = [
     Instructions1,
-
 ]
