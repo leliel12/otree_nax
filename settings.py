@@ -134,6 +134,12 @@ SESSION_CONFIGS = [
         'num_demo_participants': 3,
         'app_sequence': ['jiao_and_nax', "control_1"],
     },
+    {
+        'name': 'control_2',
+        'display_name': "Jiao And Nax - Control 2",
+        'num_demo_participants': 3,
+        'app_sequence': ['jiao_and_nax', "control_2"],
+    },
 ]
 
 

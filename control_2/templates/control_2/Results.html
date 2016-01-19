@@ -1,0 +1,23 @@
+{% extends "global/Base.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Results - Round {{subsession.round_number}}/{{Constants.num_rounds}}
+{% endblock %}
+
+{% block content %}
+<div class="row">
+    <div>
+        The last round your inversion was <strong class="text-info">{{player.invest|c}}</strong>
+    </div>
+    <div>
+        Your proffit was <strong class="text-success">{{player.payoff}}</strong>
+    </div>
+</div>
+<div class="row">
+    <div class="pull-right">
+        {% next_button %}
+    </div>
+</div>
+
+{% endblock %}
