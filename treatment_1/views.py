@@ -45,5 +45,6 @@ class Results(Page):
 
 
 page_sequence = [
-    Instructions, InstructionsPhase2, Question, ResultsWaitPage, Results
+    Instructions, InstructionsPhase2,  InstructionsPhase3,
+    Question, ResultsWaitPage, Results
 ]
