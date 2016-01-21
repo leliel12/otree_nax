@@ -1,0 +1,33 @@
+{% extends "global/Base.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+   Black box, then game+others’ actions, then others’ payoffs <br>(Treatment 2)
+{% endblock %}
+
+{% block content %}
+<div class="row">
+    <h2>Phase 2</h2>
+    <p>
+        You continue playing the same game. Here is some more information about it.
+    </p>
+    <p>
+        For every coin you invest, you produce one good which is sold.
+        The price of each good is determined by <code>P=(3000/Q)-10</code>, where <code>Q</code>
+        is the total number of coins invested by you and your two counterparts.
+        Your earnings in a period are.
+        <strong class="text-info">"your coins invested" times P, plus 100 coins</strong>.
+    </p>
+    <p>
+        As the game proceeds, from now on, you will learn after each period,
+        how many coins you and the counterparts invested, and how much you
+        earned last period as a result of your, and your counterparts’, investments.
+    </p>
+    <p>Phase 2 of the experiment contains another 20 periods.</p>
+</div>
+<div class="row">
+    <div class="pull-right">
+        {% next_button %}
+    </div>
+</div>
+{% endblock %}

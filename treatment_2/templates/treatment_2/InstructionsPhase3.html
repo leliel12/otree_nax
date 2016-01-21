@@ -1,0 +1,26 @@
+{% extends "global/Base.html" %}
+{% load staticfiles otree_tags %}
+
+{% block title %}
+    Black box, then game+others’ actions, then others’ payoffs <br>(Treatment 2)
+{% endblock %}
+
+{% block content %}
+<div class="row">
+    <h2>Phase 3</h2>
+    <p>
+        You continue playing the same game. Here is some more information about it:
+    </p>
+    <p>
+        As the game proceeds, from now on, you will also learn after each
+        period, how many coins the counterparts earned last period as a result
+        of your, and your counterparts’, investments.
+    </p>
+    <p>Phase 3 of the experiment contains another 20 periods.</p>
+</div>
+<div class="row">
+    <div class="pull-right">
+        {% next_button %}
+    </div>
+</div>
+{% endblock %}

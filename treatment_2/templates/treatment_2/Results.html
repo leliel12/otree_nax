@@ -15,7 +15,23 @@
     </div>
 </div>
 
-{% if subsession.round_number >= Constants.phase_3_round_start %}
+{% if subsession.round_number >= Constants.phase_2_round_start %}
+<br>
+<div class="row">
+    <h4>Other Players Investments</h4>
+    <table class="table">
+        <thead><th>Player</th><th>Inversion</th></thead>
+        <tbody>
+            {% for op in player.get_others_in_group %}
+            <tr>
+                <td><strong>Player {{op.id_in_group}}</strong></td>
+                <td>{{op.invest|c}}</td>
+            </tr>
+            {% endfor %}
+        </tbody>
+    </table>
+</div>
+{% elif subsession.round_number >= Constants.phase_3_round_start %}
 <br>
 <div class="row">
     <h4>Other Players Investments</h4>
