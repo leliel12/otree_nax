@@ -96,6 +96,23 @@ DEMO_PAGE_INTRO_TEXT = """
 # and also in docs for boto:
 # https://boto.readthedocs.org/en/latest/ref/mturk.html?highlight=mturk#module-boto.mturk.qualification
 
+LOCALE_PATHS = (os.path.join(BASE_DIR, "locale"),)
+
+
+MIDDLEWARE_CLASSES = [
+    'otree.middleware.CheckDBMiddleware',
+    'otree.middleware.HumanErrorMiddleware',
+    'corsheaders.middleware.CorsMiddleware',
+    'django.contrib.sessions.middleware.SessionMiddleware',
+    'django.middleware.common.CommonMiddleware',
+    'django.middleware.csrf.CsrfViewMiddleware',
+    'django.contrib.auth.middleware.AuthenticationMiddleware',
+    'django.contrib.messages.middleware.MessageMiddleware',
+
+    #~ "django.middleware.locale.LocaleMiddleware"
+    #~ "django.middleware.locale.LocaleMiddleware"
+]
+
 mturk_hit_settings = {
     'keywords': ['easy', 'bonus', 'choice', 'study'],
     'title': 'Title for your experiment',

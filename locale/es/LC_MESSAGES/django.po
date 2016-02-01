@@ -7,15 +7,15 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-01 18:01+0000\n"
-"PO-Revision-Date: 2016-02-01 17:16-0300\n"
+"POT-Creation-Date: 2016-02-01 20:35+0000\n"
+"PO-Revision-Date: 2016-02-01 17:48-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
 "Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"Last-Translator: \n"
-"Language-Team: \n"
 "X-Generator: Poedit 1.8.4\n"
 
 #: control_1/templates/control_1/Instructions.html:5
@@ -31,7 +31,7 @@ msgstr ""
 #: treatment_3/templates/treatment_3/InstructionsPhase2.html:5
 #: treatment_3/templates/treatment_3/InstructionsPhase3.html:5
 msgid "Instructions"
-msgstr "Instruciones"
+msgstr "Instrucciones"
 
 #: control_1/templates/control_1/Instructions.html:11
 msgid ""
@@ -231,6 +231,10 @@ msgstr ""
 msgid "A show-up fee of"
 msgstr "Un pago inicial"
 
+#: jiao_and_nax/templates/jiao_and_nax/Instructions1.html:30
+msgid "points"
+msgstr "moneda"
+
 #: jiao_and_nax/templates/jiao_and_nax/Instructions1.html:31
 msgid "which is independent from your decisions in the experiment, and"
 msgstr "que es independiente de sus decisiones  en el experimento, y"
@@ -278,6 +282,58 @@ msgstr ""
 "\n"
 "Ahora no le diremos exactamente como su ganancia es determinada pero aquí "
 "tiene unas consideraciones:"
+
+#: jiao_and_nax/templates/jiao_and_nax/Instructions1.html:51
+msgid ""
+"Your earnings in each period depend entirely on your strategy and your "
+"counterparts' strategies, and nothing else."
+msgstr ""
+"Su ganancia en cada periodo depende enteramente de su estrategia y la de sus "
+"oponentes y de nada mas"
+
+#: jiao_and_nax/templates/jiao_and_nax/Instructions1.html:52
+msgid ""
+"The function that determines your earnings will not change over the course "
+"of the experiment. That is, if you and your counterparts use the same "
+"strategies at time A as at time B, you both will all have the same earnings "
+"at time A as at time B."
+msgstr ""
+"La función que determina su ganancia no va a cambiar a lo largo del "
+"experimento. Esto significa que si sus oponentes usan la misma estrategia en "
+"el momento A y en el momento B, todos obtendrán la misma ganancia en A y B"
+
+#: jiao_and_nax/templates/jiao_and_nax/Instructions1.html:53
+msgid ""
+"Your earnings are symmetric with your counterparts'. In particular, if you "
+"and your counterparts all choose the same strategy, then you all will earn "
+"the same amount"
+msgstr ""
+"Su ganancia es simétrica con la de sus oponentes. En particular, si usted y "
+"sus oponentes eligen siempre la misma estrategia, todos obtendrán siempre el "
+"mismo monto."
+
+#: jiao_and_nax/templates/jiao_and_nax/Instructions1.html:55
+msgid "Payment"
+msgstr "Pago"
+
+#: jiao_and_nax/templates/jiao_and_nax/Instructions1.html:57
+msgid ""
+"\n"
+"        The experiment will last 60 periods. At the end of the experiment,\n"
+"        we will randomly select one period and pay you according to your "
+"earnings\n"
+"        in that period. Any period may be selected, so please do your best "
+"in\n"
+"        all decisions. The total number of coins you earned in that period "
+"will\n"
+"        be converted into real money at an exchange rate of "
+msgstr ""
+"\n"
+"El experimento dura 60 periodos. Al finalizar el experimento seleccionaremos "
+"un periodo al azar y le pagaremos acorde a su ganancia en el mismo.\n"
+"Cualquier periodo puede ser seleccionado Así que por favor de lo mejor en "
+"todas las decisiones. El numero total de monedas que gane en cada periodo \n"
+"sera convertido a dinero real a la taza cambio de"
 
 #: treatment_1/templates/treatment_1/Instructions.html:12
 msgid ""

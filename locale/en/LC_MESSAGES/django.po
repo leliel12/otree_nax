@@ -168,6 +168,13 @@ msgstr ""
 msgid "A show-up fee of"
 msgstr ""
 
+#: jiao_and_nax/templates/jiao_and_nax/Instructions1.html:30
+#, fuzzy
+#| msgid "point"
+#| msgid_plural "points"
+msgid "points"
+msgstr "coins"
+
 #: jiao_and_nax/templates/jiao_and_nax/Instructions1.html:31
 msgid "which is independent from your decisions in the experiment, and"
 msgstr ""
@@ -203,6 +210,44 @@ msgid ""
 "        Right now we do not tell you exactly how earnings are determined but "
 "here are a few facts:\n"
 "        "
+msgstr ""
+
+#: jiao_and_nax/templates/jiao_and_nax/Instructions1.html:51
+msgid ""
+"Your earnings in each period depend entirely on your strategy and your "
+"counterparts' strategies, and nothing else."
+msgstr ""
+
+#: jiao_and_nax/templates/jiao_and_nax/Instructions1.html:52
+msgid ""
+"The function that determines your earnings will not change over the course "
+"of the experiment. That is, if you and your counterparts use the same "
+"strategies at time A as at time B, you both will all have the same earnings "
+"at time A as at time B."
+msgstr ""
+
+#: jiao_and_nax/templates/jiao_and_nax/Instructions1.html:53
+msgid ""
+"Your earnings are symmetric with your counterparts'. In particular, if you "
+"and your counterparts all choose the same strategy, then you all will earn "
+"the same amount"
+msgstr ""
+
+#: jiao_and_nax/templates/jiao_and_nax/Instructions1.html:55
+msgid "Payment"
+msgstr ""
+
+#: jiao_and_nax/templates/jiao_and_nax/Instructions1.html:57
+msgid ""
+"\n"
+"        The experiment will last 60 periods. At the end of the experiment,\n"
+"        we will randomly select one period and pay you according to your "
+"earnings\n"
+"        in that period. Any period may be selected, so please do your best "
+"in\n"
+"        all decisions. The total number of coins you earned in that period "
+"will\n"
+"        be converted into real money at an exchange rate of "
 msgstr ""
 
 #: treatment_1/templates/treatment_1/Instructions.html:12
