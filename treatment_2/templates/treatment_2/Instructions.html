@@ -7,8 +7,9 @@
 
 {% block content %}
 <div class="row">
-    <h2>Phase 1</h2>
+    <h2>{% trans 'Phase 1' %}</h2>
     <p>
+        {% blocktrans %}
         The experiment will last 60 periods, divided into three pre-defined
         phases of 20 periods. Each period, you decide how much to invest.
         You have a fixed budget of 100 coins each period, from which you freely
@@ -16,6 +17,7 @@
         budget comes new each period. As the game proceeds, you will learn after
         each period how many coins you earned last period as a result of your,
         and your counterparts, investment decision.
+        {% endblocktrans %}
     </p>
 </div>
 <div class="row">

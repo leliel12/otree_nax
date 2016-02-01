@@ -7,14 +7,16 @@
 
 {% block content %}
 <div class="row">
-    <h2>Phase 1</h2>
+    <h2>{% trans 'Phase 1' %}</h2>
     <p>
+        {% blocktrans %}
         Each period, you decide how much to invest. You have a fixed budget of
         100 coins each period, from which you freely choose any nonnegative
         integer amount (between 0 and 100 coins). Your budget comes new each
         period. As the game proceeds, you will learn after each period how
         many coins you earned last period as a result of your, and your
         counterparts, investment decisions.
+        {% endblocktrans %}
     </p>
 </div>
 <div class="row">

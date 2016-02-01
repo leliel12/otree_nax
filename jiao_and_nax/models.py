@@ -13,8 +13,14 @@ from otree.models import BaseSubsession, BaseGroup, BasePlayer
 # </standard imports>
 
 from django.conf import settings
+from django.utils.translation import ungettext,  ugettext_lazy as _
 
 author = 'Jiao, Nax and Juan'
+
+
+ungettext("{} point", "{} points", 1)
+ungettext("point", "points", 1)
+
 
 doc = """
 Instructions for an experiment on individual decision-making in a Cournot triopoly.

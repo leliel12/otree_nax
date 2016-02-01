@@ -7,22 +7,26 @@
 
 {% block content %}
 <div class="row">
-    <h2>Phase 2</h2>
+    <h2>{% trans 'Phase 2' %}</h2>
     <p>
-        You continue playing the same game. Here is some more information about it.
+        {% trans 'You continue playing the same game. Here is some more information about it.' %}
     </p>
     <p>
+        {% blocktrans %}
         For every coin you invest, you produce one good which is sold.
         The price of each good is determined by <code>P=(3000/Q)-10</code>,
         where <code>Q</code> is the total number of coins invested by you and
         your two counterparts. Your earnings in a period are
         <strong class="text-info">"your coins invested" times P, plus 100 coins</strong>
+        {% endblocktrans %}
     </p>
     <p>
+        {% blocktrans %}
         As the game proceeds, you will learn after each period, how many coins
         you and your counterparts invested, and how much you and your
         counterparts earned last period as a result of your, and your
-        counterparts’, investments. You will play the game for another 40 periods.
+        counterparts, investments. You will play the game for another 40 periods.
+        {% endblocktrans %}
     </p>
 </div>
 <div class="row">
