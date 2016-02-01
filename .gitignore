@@ -62,4 +62,5 @@ target/
 _bin/
 setuptools-*.zip
 _doc/*/.~lock*
+db.sqlite3
 
