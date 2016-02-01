@@ -1,6 +1,12 @@
+#: control_1/models.py:52 control_2/models.py:54 treatment_1/models.py:54
+#: treatment_2/models.py:55 treatment_3/models.py:54
+msgid "How much money do you want to invest?"
+msgstr ""
+
 #: control_1/templates/control_1/Instructions.html:5
 #: control_2/templates/control_2/Instructions.html:5
 #: control_2/templates/control_2/InstructionsPhase2.html:5
+#: jiao_and_nax/templates/jiao_and_nax/Instructions1.html:5
 #: treatment_1/templates/treatment_1/Instructions.html:5
 #: treatment_1/templates/treatment_1/InstructionsPhase2.html:5
 #: treatment_1/templates/treatment_1/InstructionsPhase3.html:5

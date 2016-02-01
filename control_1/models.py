@@ -11,6 +11,8 @@ from otree.common import Currency as c, currency_range, safe_json
 from otree.constants import BaseConstants
 from otree.models import BaseSubsession, BaseGroup, BasePlayer
 # </standard imports>
+from django.conf import settings
+from django.utils.translation import ungettext,  ugettext_lazy as _
 
 author = 'Your name here'
 
@@ -47,4 +49,4 @@ class Player(BasePlayer):
 
     invest = models.IntegerField(
         choices=range(Constants.invest_limits[0], Constants.invest_limits[1] + 1),
-        verbose_name="How much money do you want to invest?")
+        verbose_name=_("How much money do you want to invest?"))
