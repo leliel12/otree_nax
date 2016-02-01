@@ -1,7 +1,174 @@
-msgid "{} point"
-msgid_plural "{} points"
-msgstr[0] "{} coin"
-msgstr[1] "{} coins"
+#: control_1/templates/control_1/Instructions.html:5
+#: control_2/templates/control_2/Instructions.html:5
+#: control_2/templates/control_2/InstructionsPhase2.html:5
+#: treatment_1/templates/treatment_1/Instructions.html:5
+#: treatment_1/templates/treatment_1/InstructionsPhase2.html:5
+#: treatment_1/templates/treatment_1/InstructionsPhase3.html:5
+#: treatment_2/templates/treatment_2/Instructions.html:5
+#: treatment_2/templates/treatment_2/InstructionsPhase2.html:5
+#: treatment_2/templates/treatment_2/InstructionsPhase3.html:5
+#: treatment_3/templates/treatment_3/Instructions.html:5
+#: treatment_3/templates/treatment_3/InstructionsPhase2.html:5
+#: treatment_3/templates/treatment_3/InstructionsPhase3.html:5
+msgid "Instructions"
+msgstr ""
 
-msgid "points"
-msgstr "coins"
+#: control_1/templates/control_1/Instructions.html:11
+msgid ""
+"\n"
+"        Each period, you decide how much to invest. You have a fixed budget "
+"of\n"
+"        100 coins each period, from which you freely choose any nonnegative\n"
+"        integer amount (between 0 and 100 coins). Your budget comes new each "
+"period.\n"
+"        As the game proceeds, you will learn after each period how many "
+"coins\n"
+"        you earned last period as a result of your, and your counterparts,\n"
+"        investment decisions.\n"
+"        "
+msgstr ""
+
+#: control_1/templates/control_1/Question.html:5
+#: control_2/templates/control_2/Question.html:5
+#: treatment_1/templates/treatment_1/Question.html:5
+#: treatment_2/templates/treatment_2/Question.html:5
+#: treatment_3/templates/treatment_3/Question.html:5
+msgid "Decide - Round"
+msgstr ""
+
+#: control_1/templates/control_1/Results.html:5
+#: control_2/templates/control_2/Results.html:5
+#: treatment_1/templates/treatment_1/Results.html:5
+#: treatment_2/templates/treatment_2/Results.html:5
+#: treatment_3/templates/treatment_3/Results.html:5
+msgid "Results - Round"
+msgstr ""
+
+#: control_1/templates/control_1/Results.html:11
+#: control_2/templates/control_2/Results.html:11
+#: treatment_1/templates/treatment_1/Results.html:11
+#: treatment_2/templates/treatment_2/Results.html:11
+#: treatment_3/templates/treatment_3/Results.html:11
+msgid "Your last round investment was"
+msgstr ""
+
+#: control_1/templates/control_1/Results.html:14
+#: control_2/templates/control_2/Results.html:14
+#: treatment_1/templates/treatment_1/Results.html:14
+#: treatment_2/templates/treatment_2/Results.html:14
+#: treatment_3/templates/treatment_3/Results.html:14
+msgid "Your proffit was"
+msgstr ""
+
+#: jiao_and_nax/templates/jiao_and_nax/Instructions1.html:11
+msgid ""
+"\n"
+"        <strong>Welcome to the experiment!</strong> This is an economics\n"
+"        experiment about decision-making. If you pay close attention to "
+"these\n"
+"        instructions, you can earn a significant sum of money, which will be "
+"paid\n"
+"        to you in cash at the end of the last period.\n"
+"        "
+msgstr ""
+
+#: jiao_and_nax/templates/jiao_and_nax/Instructions1.html:19
+msgid ""
+"\n"
+"        Please remain silent and do not look at other participants' "
+"screens.\n"
+"        If you have any questions, or need assistance of any kind, please "
+"raise\n"
+"        your hand and we will come to you. If you disrupt the experiment by "
+"talking,\n"
+"        laughing, etc., you may be asked to leave and may not be paid. We "
+"expect\n"
+"        and appreciate your cooperation today. There are two parts of your "
+"reward\n"
+"        in this experiment:\n"
+"        "
+msgstr ""
+
+#: jiao_and_nax/templates/jiao_and_nax/Instructions1.html:30
+msgid "A show-up fee of"
+msgstr ""
+
+#: jiao_and_nax/templates/jiao_and_nax/Instructions1.html:31
+msgid "which is independent from your decisions in the experiment, and"
+msgstr ""
+
+#: jiao_and_nax/templates/jiao_and_nax/Instructions1.html:33
+msgid ""
+"a payment that depends on your decisions in the experiment, which will be "
+"explained next."
+msgstr ""
+
+#: jiao_and_nax/templates/jiao_and_nax/Instructions1.html:35
+msgid "The Basic Idea"
+msgstr ""
+
+#: jiao_and_nax/templates/jiao_and_nax/Instructions1.html:37
+msgid ""
+"\n"
+"        The experiment will be divided into a number of periods and in each "
+"period you\n"
+"        will be anonymously matched with two other players via the "
+"computer.\n"
+"        In each period you and your counterparts will select strategies and "
+"at the end of\n"
+"        the period the combination of your and your counterparts' strategies "
+"will determine your\n"
+"        earnings for the period.\n"
+"        "
+msgstr ""
+
+#: jiao_and_nax/templates/jiao_and_nax/Instructions1.html:46
+msgid ""
+"\n"
+"        Right now we do not tell you exactly how earnings are determined but "
+"here are a few facts:\n"
+"        "
+msgstr ""
+
+#: treatment_1/templates/treatment_1/Results.html:21
+#: treatment_2/templates/treatment_2/Results.html:20
+#: treatment_2/templates/treatment_2/Results.html:37
+#: treatment_3/templates/treatment_3/Results.html:21
+#: treatment_3/templates/treatment_3/Results.html:38
+msgid "Other Players Investments"
+msgstr ""
+
+#: treatment_1/templates/treatment_1/Results.html:23
+#: treatment_1/templates/treatment_1/Results.html:27
+#: treatment_2/templates/treatment_2/Results.html:22
+#: treatment_2/templates/treatment_2/Results.html:26
+#: treatment_2/templates/treatment_2/Results.html:39
+#: treatment_2/templates/treatment_2/Results.html:43
+#: treatment_3/templates/treatment_3/Results.html:23
+#: treatment_3/templates/treatment_3/Results.html:27
+#: treatment_3/templates/treatment_3/Results.html:40
+#: treatment_3/templates/treatment_3/Results.html:44
+msgid "Player"
+msgstr ""
+
+#: treatment_1/templates/treatment_1/Results.html:23
+#: treatment_2/templates/treatment_2/Results.html:22
+#: treatment_2/templates/treatment_2/Results.html:39
+#: treatment_3/templates/treatment_3/Results.html:23
+#: treatment_3/templates/treatment_3/Results.html:40
+msgid "Inversion"
+msgstr ""
+
+#: treatment_1/templates/treatment_1/Results.html:23
+#: treatment_2/templates/treatment_2/Results.html:22
+#: treatment_3/templates/treatment_3/Results.html:23
+msgid "Proffit"
+msgstr ""
+
+#~ msgid "{} point"
+#~ msgid_plural "{} points"
+#~ msgstr[0] "{} coin"
+#~ msgstr[1] "{} coins"
+
+#~ msgid "points"
+#~ msgstr "coins"

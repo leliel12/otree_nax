@@ -2,12 +2,12 @@
 {% load staticfiles otree_tags %}
 
 {% block title %}
-    Decide - Round {{subsession.round_number}}/{{Constants.num_rounds}}
+    {% blocktrans %}Decide - Round{% endblocktrans %} {{subsession.round_number}}/{{Constants.num_rounds}}
 {% endblock %}
 
 {% block content %}
 <div class="row">
-    <div class="col-md-6 col-md-offset-3">
+    <div class="col-md-12 text-center">
         {{form}}
     </div>
 </div>

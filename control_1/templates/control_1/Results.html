@@ -2,16 +2,16 @@
 {% load staticfiles otree_tags %}
 
 {% block title %}
-    Results - Round {{subsession.round_number}}/{{Constants.num_rounds}}
+    {% blocktrans %}Results - Round{% endblocktrans %} {{subsession.round_number}}/{{Constants.num_rounds}}
 {% endblock %}
 
 {% block content %}
 <div class="row">
     <div>
-        The last round your inversion was <strong class="text-info">{{player.invest|c}}</strong>
+        {% blocktrans %}Your last round investment was{% endblocktrans %} <strong class="text-info">{{player.invest|c}}</strong>
     </div>
     <div>
-        Your proffit was <strong class="text-success">{{player.payoff}}</strong>
+        {% blocktrans %}Your proffit was{% endblocktrans %} <strong class="text-success">{{player.payoff}}</strong>
     </div>
 </div>
 <div class="row">

@@ -45,10 +45,6 @@ class Group(BaseGroup):
 
 class Player(BasePlayer):
 
-    def random_invest():
-        return random.randint(*Constants.invest_limits)
-
     invest = models.IntegerField(
-        min=Constants.invest_limits[0], max=Constants.invest_limits[1],
-        widget=widgets.SliderInput(), default=random_invest,
+        choices=range(Constants.invest_limits[0], Constants.invest_limits[1] + 1),
         verbose_name="How much money do you want to invest?")

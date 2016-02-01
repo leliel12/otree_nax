@@ -2,29 +2,29 @@
 {% load staticfiles otree_tags %}
 
 {% block title %}
-    Results - Round {{subsession.round_number}}/{{Constants.num_rounds}}
+    {% blocktrans %}Results - Round{% endblocktrans %} {{subsession.round_number}}/{{Constants.num_rounds}}
 {% endblock %}
 
 {% block content %}
 <div class="row">
     <div>
-        The last round your inversion was <strong class="text-info">{{player.invest|c}}</strong>
+        {% blocktrans %}Your last round investment was{% endblocktrans %} <strong class="text-info">{{player.invest|c}}</strong>
     </div>
     <div>
-        Your proffit was <strong class="text-success">{{player.payoff}}</strong>
+        {% blocktrans %}Your proffit was{% endblocktrans %} <strong class="text-success">{{player.payoff}}</strong>
     </div>
 </div>
 
 {% if subsession.round_number >= Constants.phase_3_round_start %}
 <br>
 <div class="row">
-    <h4>Other Players Investments</h4>
+    <h4>{% blocktrans %}Other Players Investments{% endblocktrans %}</h4>
     <table class="table">
-        <thead><th>Player</th><th>Inversion</th><th>Proffit</th></thead>
+        <thead><th>{% trans 'Player' %}</th><th>{% trans 'Inversion' %}</th><th>{% trans 'Proffit' %}</th></thead>
         <tbody>
             {% for op in player.get_others_in_group %}
             <tr>
-                <td><strong>Player {{op.id_in_group}}</strong></td>
+                <td><strong>{% trans 'Player' %} {{op.id_in_group}}</strong></td>
                 <td>{{op.invest|c}}</td>
                 <td>{{op.payoff}}</td>
             </tr>
