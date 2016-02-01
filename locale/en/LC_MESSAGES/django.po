@@ -1,6 +1,26 @@
-#: control_1/models.py:52 control_2/models.py:54 treatment_1/models.py:54
+#: control_1/models.py:61 control_2/models.py:54 treatment_1/models.py:54
 #: treatment_2/models.py:55 treatment_3/models.py:54
 msgid "How much money do you want to invest?"
+msgstr ""
+
+#: control_1/templates/control_1/FinalResults.html:5
+msgid "Final Results"
+msgstr ""
+
+#: control_1/templates/control_1/FinalResults.html:11
+msgid "Your randomly selected period:"
+msgstr ""
+
+#: control_1/templates/control_1/FinalResults.html:12
+msgid "In that period your earing was:"
+msgstr ""
+
+#: control_1/templates/control_1/FinalResults.html:13
+msgid "Your final payment will be"
+msgstr ""
+
+#: control_1/templates/control_1/FinalResults.html:13
+msgid "In Real Money"
 msgstr ""
 
 #: control_1/templates/control_1/Instructions.html:5

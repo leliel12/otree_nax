@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-02-01 20:52+0000\n"
-"PO-Revision-Date: 2016-02-01 17:52-0300\n"
+"POT-Creation-Date: 2016-02-01 21:31+0000\n"
+"PO-Revision-Date: 2016-02-01 18:32-0300\n"
 "Last-Translator: \n"
 "Language-Team: \n"
 "Language: es\n"
@@ -18,10 +18,30 @@ msgstr ""
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Poedit 1.8.4\n"
 
-#: control_1/models.py:52 control_2/models.py:54 treatment_1/models.py:54
+#: control_1/models.py:61 control_2/models.py:54 treatment_1/models.py:54
 #: treatment_2/models.py:55 treatment_3/models.py:54
 msgid "How much money do you want to invest?"
 msgstr "¿Cuanto dinero desea invertir?"
+
+#: control_1/templates/control_1/FinalResults.html:5
+msgid "Final Results"
+msgstr "Resultados finales"
+
+#: control_1/templates/control_1/FinalResults.html:11
+msgid "Your randomly selected period:"
+msgstr "Su periodo seleccionado aleatoriamente fue:"
+
+#: control_1/templates/control_1/FinalResults.html:12
+msgid "In that period your earing was:"
+msgstr "En ese periodo usted ganó:"
+
+#: control_1/templates/control_1/FinalResults.html:13
+msgid "Your final payment will be"
+msgstr "Su pago final sera"
+
+#: control_1/templates/control_1/FinalResults.html:13
+msgid "In Real Money"
+msgstr "En dinero real"
 
 #: control_1/templates/control_1/Instructions.html:5
 #: control_2/templates/control_2/Instructions.html:5

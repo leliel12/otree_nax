@@ -45,8 +45,19 @@ class Group(BaseGroup):
             p.payoff = price * p.invest + 100
 
 
+    def select_random_round(self):
+        for ply in self.get_players():
+            payoffs = [(p.round_number, p.payoff) for p in ply.in_all_rounds()]
+            ply.selected_round, ply.selected_payoff_to_pay = random.choice(payoffs)
+
+
 class Player(BasePlayer):
+
+    selected_round = models.IntegerField()
+    selected_payoff_to_pay = models.CurrencyField()
 
     invest = models.IntegerField(
         choices=range(Constants.invest_limits[0], Constants.invest_limits[1] + 1),
         verbose_name=_("How much money do you want to invest?"))
+
+

@@ -1,0 +1,16 @@
+{% extends "global/Base.html" %}
+{% load staticfiles otree_tags i18n %}
+
+{% block title %}
+    {% blocktrans %}Final Results{% endblocktrans %}
+{% endblock %}
+
+{% block content %}
+<div class="row">
+    <ul>
+        <li><strong>{% trans 'Your randomly selected period:' %} <span class="text-info">{{player.selected_round}}</span></strong></li>
+        <li><strong>{% trans 'In that period your earing was:' %} <span class="text-info">{{player.selected_payoff_to_pay}}</span></strong></li>
+        <li><strong>{% trans 'Your final payment will be' %} <span class="text-success">{{final_payment}}</span> ({% trans 'In Real Money' %})</strong></li>
+    </ul>
+</div>
+{% endblock %}
