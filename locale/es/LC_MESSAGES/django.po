@@ -5,17 +5,18 @@
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: PACKAGE VERSION\n"
+"Project-Id-Version: \n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-02-01 18:01+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
-"Language-Team: LANGUAGE <LL@li.org>\n"
-"Language: \n"
+"PO-Revision-Date: 2016-02-01 17:16-0300\n"
+"Language: es\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"X-Generator: Poedit 1.8.4\n"
 
 #: control_1/templates/control_1/Instructions.html:5
 #: control_2/templates/control_2/Instructions.html:5
@@ -30,7 +31,7 @@ msgstr ""
 #: treatment_3/templates/treatment_3/InstructionsPhase2.html:5
 #: treatment_3/templates/treatment_3/InstructionsPhase3.html:5
 msgid "Instructions"
-msgstr ""
+msgstr "Instruciones"
 
 #: control_1/templates/control_1/Instructions.html:11
 msgid ""
@@ -46,6 +47,13 @@ msgid ""
 "        investment decisions.\n"
 "        "
 msgstr ""
+"\n"
+"En cada periodo usted decide cuanto va invertir. Usted tiene un presupuesto "
+"fijo de 100 monedas por cada periodo, del cual puede elegir cualquier valor "
+"entero no negativo (entre 0 y 100 monedas), \n"
+"Su presupuesto se renueva cada periodo. A lo largo del juego, usted "
+"aprendera entre cada periodo cuantas monedas ha ganado como resultado de la "
+"elección de inversión suya y de su adversario."
 
 #: control_1/templates/control_1/Question.html:5
 #: control_2/templates/control_2/Question.html:5
@@ -53,7 +61,7 @@ msgstr ""
 #: treatment_2/templates/treatment_2/Question.html:5
 #: treatment_3/templates/treatment_3/Question.html:5
 msgid "Decide - Round"
-msgstr ""
+msgstr "Decida - Round"
 
 #: control_1/templates/control_1/Results.html:5
 #: control_2/templates/control_2/Results.html:5
@@ -61,7 +69,7 @@ msgstr ""
 #: treatment_2/templates/treatment_2/Results.html:5
 #: treatment_3/templates/treatment_3/Results.html:5
 msgid "Results - Round"
-msgstr ""
+msgstr "Resultados - Round"
 
 #: control_1/templates/control_1/Results.html:11
 #: control_2/templates/control_2/Results.html:11
@@ -69,7 +77,7 @@ msgstr ""
 #: treatment_2/templates/treatment_2/Results.html:11
 #: treatment_3/templates/treatment_3/Results.html:11
 msgid "Your last round investment was"
-msgstr ""
+msgstr "Su ultima inversión fue"
 
 #: control_1/templates/control_1/Results.html:14
 #: control_2/templates/control_2/Results.html:14
@@ -77,13 +85,13 @@ msgstr ""
 #: treatment_2/templates/treatment_2/Results.html:14
 #: treatment_3/templates/treatment_3/Results.html:14
 msgid "Your proffit was"
-msgstr ""
+msgstr "Su ganancia fue"
 
 #: control_2/templates/control_2/Instructions.html:10
 #: treatment_1/templates/treatment_1/Instructions.html:10
 #: treatment_2/templates/treatment_2/Instructions.html:10
 msgid "Phase 1"
-msgstr ""
+msgstr "Fase 1"
 
 #: control_2/templates/control_2/Instructions.html:12
 msgid ""
@@ -98,13 +106,20 @@ msgid ""
 "        counterparts, investment decisions.\n"
 "        "
 msgstr ""
+"\n"
+"En cada periodo usted decide cuanto va invertir. Usted tiene un presupuesto "
+"fijo de 100 monedas por cada periodo, del cual puede elegir cualquier valor "
+"entero no negativo (entre 0 y 100 monedas), \n"
+"Su presupuesto se renueva cada periodo. A lo largo del juego, usted "
+"aprenderá entre cada periodo cuantas monedas ha ganado como resultado de la "
+"elección de inversión suya y de su adversario."
 
 #: control_2/templates/control_2/InstructionsPhase2.html:10
 #: treatment_1/templates/treatment_1/InstructionsPhase2.html:10
 #: treatment_2/templates/treatment_2/InstructionsPhase2.html:10
 #: treatment_3/templates/treatment_3/InstructionsPhase2.html:10
 msgid "Phase 2"
-msgstr ""
+msgstr "Fase 2"
 
 #: control_2/templates/control_2/InstructionsPhase2.html:12
 #: treatment_1/templates/treatment_1/InstructionsPhase2.html:12
@@ -116,6 +131,8 @@ msgstr ""
 msgid ""
 "You continue playing the same game. Here is some more information about it."
 msgstr ""
+"Usted continuará jugando el mismo juego. Aquí tiene más información sobre el "
+"mismo."
 
 #: control_2/templates/control_2/InstructionsPhase2.html:15
 msgid ""
@@ -129,6 +146,14 @@ msgid ""
 "100 coins</strong>\n"
 "        "
 msgstr ""
+"\n"
+"por cada moneda que usted invierte, usted produce un bien que es vendido\n"
+"el precio de cada bien es determinado por <code>P=(3000/Q)-10</code>\n"
+"donde <code>Q</code> es el numero total de monedas invertidas por usted y "
+"sus\n"
+"dos oponentes. Su ganancia por periodo es <strong class=\"text-info\">\"sus "
+"monedas invertidas\" por P,  mas 100 monedas\n"
+"</strong>"
 
 #: control_2/templates/control_2/InstructionsPhase2.html:24
 msgid ""
@@ -141,18 +166,23 @@ msgid ""
 "periods.\n"
 "        "
 msgstr ""
+"\n"
+"Mientras el juego continua, de ahora en mas, usted sabrá después de cada "
+"periodo\n"
+"cuantas monedas usted y sus adversarios invirtieron y ganaron. El juego aun "
+"continua por otros 40 periodos"
 
 #: jiao_and_nax/models.py:21
 msgid "{} point"
 msgid_plural "{} points"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "{} moneda"
+msgstr[1] "{} monedas"
 
 #: jiao_and_nax/models.py:22
 msgid "point"
 msgid_plural "points"
-msgstr[0] ""
-msgstr[1] ""
+msgstr[0] "moneda"
+msgstr[1] "monedas"
 
 #: jiao_and_nax/templates/jiao_and_nax/Instructions1.html:11
 msgid ""
@@ -165,6 +195,11 @@ msgid ""
 "        to you in cash at the end of the last period.\n"
 "        "
 msgstr ""
+"\n"
+"<strong>Bienvenido al experimento</strong> sobre toma de decisiones . Si "
+"usted presta atención a estas instrucciones, podrá ganas una suma "
+"considerable de dinero, la cual sera entregada en efectivo al final del "
+"ultimo periodo"
 
 #: jiao_and_nax/templates/jiao_and_nax/Instructions1.html:19
 msgid ""
@@ -182,24 +217,35 @@ msgid ""
 "        in this experiment:\n"
 "        "
 msgstr ""
+"\n"
+"Por favor permanezca en silencio y no mire a la pantalla de otros "
+"participantes. Si usted tiene alguna pregunta, o necesita ayuda de algún "
+"tipo, \n"
+"por favor levante la mano y nosotros asistiremos. Si usted interrumpe el "
+"experimento hablando, riéndose, etc., se solicitara que se retire y no "
+"recibirá el pago.\n"
+"Esperamos y apreciamos su cooperación. Hay dos partes en la recompensa en "
+"este experimento:"
 
 #: jiao_and_nax/templates/jiao_and_nax/Instructions1.html:30
 msgid "A show-up fee of"
-msgstr ""
+msgstr "Un pago inicial"
 
 #: jiao_and_nax/templates/jiao_and_nax/Instructions1.html:31
 msgid "which is independent from your decisions in the experiment, and"
-msgstr ""
+msgstr "que es independiente de sus decisiones  en el experimento, y"
 
 #: jiao_and_nax/templates/jiao_and_nax/Instructions1.html:33
 msgid ""
 "a payment that depends on your decisions in the experiment, which will be "
 "explained next."
 msgstr ""
+"un pago que depende de sus decisiones en el experimento, el cual sera "
+"explicado a continuación."
 
 #: jiao_and_nax/templates/jiao_and_nax/Instructions1.html:35
 msgid "The Basic Idea"
-msgstr ""
+msgstr "La idea básica"
 
 #: jiao_and_nax/templates/jiao_and_nax/Instructions1.html:37
 msgid ""
@@ -215,6 +261,12 @@ msgid ""
 "        earnings for the period.\n"
 "        "
 msgstr ""
+"\n"
+"El experimento esta dividido en un numero de periodos en los cuales cual "
+"usted sera emparejado anónimamente con otros dos jugadores vía la "
+"computadora.\n"
+"En cada periodo usted  usted y sus adversarios seleccionaran estrategias y "
+"al finalizar (el periodo) la combinación de ellas determinaran su ganancia."
 
 #: jiao_and_nax/templates/jiao_and_nax/Instructions1.html:46
 msgid ""
@@ -223,6 +275,9 @@ msgid ""
 "here are a few facts:\n"
 "        "
 msgstr ""
+"\n"
+"Ahora no le diremos exactamente como su ganancia es determinada pero aquí "
+"tiene unas consideraciones:"
 
 #: treatment_1/templates/treatment_1/Instructions.html:12
 msgid ""
@@ -237,6 +292,15 @@ msgid ""
 "        result of your, and your counterparts, investment decision.\n"
 "        "
 msgstr ""
+"\n"
+"El experimento dura 60 periodos, dividido en 3 fases predefinidas de 20 "
+"periodos cada una. \n"
+"En cada periodo usted decide cuanto va invertir. Usted tiene un presupuesto "
+"fijo de 100 monedas por cada periodo, del cual puede elegir cualquier valor "
+"entero no negativo (entre 0 y 100 monedas), \n"
+"Su presupuesto se renueva cada periodo. A lo largo del juego, usted "
+"aprenderá entre cada periodo cuantas monedas ha ganado como resultado de la "
+"elección de inversión suya y de su adversario."
 
 #: treatment_1/templates/treatment_1/InstructionsPhase2.html:15
 msgid ""
@@ -251,18 +315,25 @@ msgid ""
 "100 coins</strong>.\n"
 "        "
 msgstr ""
+"\n"
+"por cada moneda que usted invierte, usted produce un bien que es vendido\n"
+"el precio de cada bien es determinado por <code>P=(3000/Q)-10</code>\n"
+"donde <code>Q</code> es el numero total de monedas invertidas por usted y "
+"sus\n"
+"dos oponentes. Su ganancia por periodo es <strong class=\"text-info\">\"sus "
+"monedas invertidas\" por P,  mas 100 monedas</strong>"
 
 #: treatment_1/templates/treatment_1/InstructionsPhase2.html:23
 #: treatment_2/templates/treatment_2/InstructionsPhase2.html:30
 #: treatment_3/templates/treatment_3/InstructionsPhase2.html:21
 msgid "Phase 2 of the experiment contains another 20 periods."
-msgstr ""
+msgstr "La fase 2 del experimento contiene otros 20 periodos"
 
 #: treatment_1/templates/treatment_1/InstructionsPhase3.html:10
 #: treatment_2/templates/treatment_2/InstructionsPhase3.html:10
 #: treatment_3/templates/treatment_3/InstructionsPhase3.html:10
 msgid "Phase 3"
-msgstr ""
+msgstr "Fase 3"
 
 #: treatment_1/templates/treatment_1/InstructionsPhase3.html:15
 msgid ""
@@ -274,12 +345,16 @@ msgid ""
 "        your counterparts earned last period as a result of your, and your "
 "counterparts,"
 msgstr ""
+"\n"
+"Mientras el juego continua, de ahora en mas, usted sabrá después de cada "
+"periodo\n"
+"cuantas monedas usted y sus adversarios invirtieron y ganaron."
 
 #: treatment_1/templates/treatment_1/InstructionsPhase3.html:21
 #: treatment_2/templates/treatment_2/InstructionsPhase3.html:21
 #: treatment_3/templates/treatment_3/InstructionsPhase3.html:23
 msgid "Phase 3 of the experiment contains another 20 periods."
-msgstr ""
+msgstr "La fase 3 del experimento contiene otros 20 periodos"
 
 #: treatment_1/templates/treatment_1/Results.html:21
 #: treatment_2/templates/treatment_2/Results.html:20
@@ -287,7 +362,7 @@ msgstr ""
 #: treatment_3/templates/treatment_3/Results.html:21
 #: treatment_3/templates/treatment_3/Results.html:38
 msgid "Other Players Investments"
-msgstr ""
+msgstr "Inversión de los otros jugadores"
 
 #: treatment_1/templates/treatment_1/Results.html:23
 #: treatment_1/templates/treatment_1/Results.html:27
@@ -300,7 +375,7 @@ msgstr ""
 #: treatment_3/templates/treatment_3/Results.html:40
 #: treatment_3/templates/treatment_3/Results.html:44
 msgid "Player"
-msgstr ""
+msgstr "Jugador"
 
 #: treatment_1/templates/treatment_1/Results.html:23
 #: treatment_2/templates/treatment_2/Results.html:22
@@ -308,13 +383,13 @@ msgstr ""
 #: treatment_3/templates/treatment_3/Results.html:23
 #: treatment_3/templates/treatment_3/Results.html:40
 msgid "Inversion"
-msgstr ""
+msgstr "Inversión"
 
 #: treatment_1/templates/treatment_1/Results.html:23
 #: treatment_2/templates/treatment_2/Results.html:22
 #: treatment_3/templates/treatment_3/Results.html:23
 msgid "Proffit"
-msgstr ""
+msgstr "Ganancia"
 
 #: treatment_2/templates/treatment_2/Instructions.html:12
 msgid ""
@@ -332,6 +407,15 @@ msgid ""
 "        and your counterparts, investment decision.\n"
 "        "
 msgstr ""
+"\n"
+"El experimento dura 60 periodos, dividido en 3 fases predefinidas de 20 "
+"periodos cada una. \n"
+"En cada periodo usted decide cuanto va invertir. Usted tiene un presupuesto "
+"fijo de 100 monedas por cada periodo, del cual puede elegir cualquier valor "
+"entero no negativo (entre 0 y 100 monedas), \n"
+"Su presupuesto se renueva cada periodo. A lo largo del juego, usted "
+"aprenderá entre cada periodo cuantas monedas ha ganado como resultado de la "
+"elección de inversión suya y de su adversario."
 
 #: treatment_2/templates/treatment_2/InstructionsPhase2.html:15
 #: treatment_3/templates/treatment_3/InstructionsPhase3.html:15
@@ -347,6 +431,14 @@ msgid ""
 "100 coins</strong>.\n"
 "        "
 msgstr ""
+"\n"
+"por cada moneda que usted invierte, usted produce un bien que es vendido\n"
+"el precio de cada bien es determinado por <code>P=(3000/Q)-10</code>\n"
+"donde <code>Q</code> es el numero total de monedas invertidas por usted y "
+"sus\n"
+"dos oponentes. Su ganancia por periodo es <strong class=\"text-info\">\"sus "
+"monedas invertidas\" por P,  mas 100 monedas\n"
+"</strong>"
 
 #: treatment_2/templates/treatment_2/InstructionsPhase2.html:24
 msgid ""
@@ -358,6 +450,11 @@ msgid ""
 "investments.\n"
 "        "
 msgstr ""
+"\n"
+"Mientras el juego continua, de ahora en mas, usted sabrá después de cada "
+"periodo\n"
+"cuantas monedas invirtió cada jugador  y cuanto gano usted en consecuencia "
+"de estas inversiones."
 
 #: treatment_2/templates/treatment_2/InstructionsPhase3.html:15
 msgid ""
@@ -368,6 +465,11 @@ msgid ""
 "        of your, and your counterparts, investments.\n"
 "        "
 msgstr ""
+"\n"
+"Mientras el juego continua, de ahora en mas, usted sabrá después de cada "
+"periodo\n"
+"cuantas monedas sus adversarios ganaron en consecuencia de las inversiones "
+"de todos los jugadores. "
 
 #: treatment_3/templates/treatment_3/InstructionsPhase2.html:15
 msgid ""
@@ -380,3 +482,7 @@ msgid ""
 "counterparts, investments.\n"
 "        "
 msgstr ""
+"\n"
+"Mientras el juego continua, de ahora en mas, usted sabrá después de cada "
+"periodo\n"
+"cuantas monedas usted y sus adversarios invirtieron y ganaron. "

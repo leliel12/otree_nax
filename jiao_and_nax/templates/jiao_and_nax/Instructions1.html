@@ -1,5 +1,5 @@
 {% extends "global/Base.html" %}
-{% load staticfiles otree_tags %}
+{% load staticfiles otree_tags i18n %}
 
 {% block title %}
     Instructions
@@ -27,7 +27,7 @@
     </p>
     <ol>
         <li>
-            {% blocktrans %}A show-up fee of{% endblocktrans %} <strong class="text-info">{{Constants.participation_fee}}</strong>,
+            {% blocktrans %}A show-up fee of{% endblocktrans %} <strong class="text-info">100 {% trans 'points' %}</strong>,
             {% blocktrans %}which is independent from your decisions in the experiment, and{% endblocktrans %}
         </li>
         <li>{% blocktrans %}a payment that depends on your decisions in the experiment, which will be explained next.{% endblocktrans %}</li>
@@ -48,13 +48,13 @@
         {% endblocktrans %}
     </p>
     <ul>
-        <li>{% endblocktrans %}Your earnings in each period depend entirely on your strategy and your counterparts' strategies, and nothing else.{% endblocktrans %}</li>
-        <li>{% endblocktrans %}The function that determines your earnings will not change over the course of the experiment. That is, if you and your counterparts use the same strategies at time A as at time B, you both will all have the same earnings at time A as at time B.{% endblocktrans %}</li>
-        <li>{% endblocktrans %}Your earnings are symmetric with your counterparts'. In particular, if you and your counterparts all choose the same strategy, then you all will earn the same amount{% endblocktrans %}</li>
+        <li>{% blocktrans %}Your earnings in each period depend entirely on your strategy and your counterparts' strategies, and nothing else.{% endblocktrans %}</li>
+        <li>{% blocktrans %}The function that determines your earnings will not change over the course of the experiment. That is, if you and your counterparts use the same strategies at time A as at time B, you both will all have the same earnings at time A as at time B.{% endblocktrans %}</li>
+        <li>{% blocktrans %}Your earnings are symmetric with your counterparts'. In particular, if you and your counterparts all choose the same strategy, then you all will earn the same amount{% endblocktrans %}</li>
     </ul>
-    <h3>{% endblocktrans %}Payment{% endblocktrans %}</h3>
+    <h3>{% blocktrans %}Payment{% endblocktrans %}</h3>
     <p>
-        {% endblocktrans %}
+        {% blocktrans %}
         The experiment will last 60 periods. At the end of the experiment,
         we will randomly select one period and pay you according to your earnings
         in that period. Any period may be selected, so please do your best in
