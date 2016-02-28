@@ -59,3 +59,8 @@ select {
     margin-left: 45%;
     width: 100px !important;
 }
+
+.input-group.slider {
+    margin-left: 30%;
+
+}

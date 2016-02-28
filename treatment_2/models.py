@@ -60,5 +60,6 @@ class Player(BasePlayer):
     selected_payoff_to_pay = models.CurrencyField()
 
     invest = models.IntegerField(
-        choices=range(Constants.invest_limits[0], Constants.invest_limits[1] + 1),
+        max=Constants.invest_limits[0], min=Constants.invest_limits[1],
+        widget=widgets.SliderInput(), default=0,
         verbose_name=_("How much money do you want to invest?"))
